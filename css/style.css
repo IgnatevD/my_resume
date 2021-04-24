@@ -1,0 +1,196 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('/fonts/montserrat-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/fonts/montserrat-v15-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/montserrat-v15-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v15-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+
+/* container */
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #ffffff;
+    margin: 60px auto;
+}
+
+    /* my informatsion */
+.my-informatsion {
+    margin: 60px 200px 140px 90px;
+}
+
+        /* about me */
+.about-me {
+    margin-bottom: 40px;
+}
+.about-me h2 {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.about-me h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+}
+.about-me p {
+    width: 400px;
+    color: #595959;
+}
+
+        /* my Projects  */
+
+.my-Projects {
+    margin-bottom: 45px;
+}
+.my-Projects h3 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 7px;
+    margin-bottom: 8px;
+}
+.my-Projects span {
+    font-weight: 400;
+}
+.my-Projects a {
+    font-weight: 400;
+    color: #595959;
+    margin-left: 5px;
+}
+.point_Projects {
+    font-weight: 400;
+    color: #595959;
+}
+.my-Projects li {
+    font-weight: bold;
+    color: #000000;
+}
+.my-Projects ol {
+    padding-left: 19px;
+}
+.brakets {
+    font-weight: bold !important;
+    color: #000000;
+}
+        /* my Work Experience*/
+.my-Work {
+    margin-bottom: 45px;
+} 
+.my-Work h3 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 7px;
+    margin-bottom: 10px;
+}
+.my-Work h4 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 10px;
+    margin-bottom: 12px;
+}
+.my-Work p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 5px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+.my-Work ul {
+    padding-left: 17px;
+    color: #595959;
+}
+.red_text {
+    color: #FB6D3A;
+}
+      
+        /* my Education*/
+.my-Education h3 {
+    font-weight: bold;
+    line-height: 5px;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.my-Education h4 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 10px;
+    margin-bottom: 12px;
+}
+.my-Education h5 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 7px;
+    margin-bottom: 12px;
+}
+.my-Education p {
+    font-style: normal;
+    font-weight: normal;    
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+    /* my foto and contact */
+.my-contact {
+    width: 370px;
+    background: #1E2939;
+    color: #ffffff;
+}
+.my-contact img {
+    margin: 40px 0 0 0;
+}
+.my-contact h3 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.my-contact ul {
+    padding-left: 17px;
+    color: #FB6D3A;
+}
+.point {
+    color: #FFFFFF;
+}
+        /* Contacts */
+.Contacts,
+.Tech-Skills,
+.Soft-Skills  {
+    margin: 50px 0 0 40px;
+}
+.Contacts span {
+    font-weight: bold;
+    margin-right: 18px;
+}
+.Contacts a {
+text-decoration-line: underline;
+color: #FFFFFF;
+opacity: 0.5;
+}
+
+
